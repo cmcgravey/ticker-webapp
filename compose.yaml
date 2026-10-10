@@ -1,0 +1,10 @@
+services:
+  ticker:
+    build: .
+    container_name: ticker-webapp
+    ports:
+      - "8000:8000"
+    volumes:
+      # Keep editable display content on the Pi, even when the image is rebuilt.
+      - ./backend/data:/app/backend/data
+    restart: unless-stopped

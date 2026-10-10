@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#080b10" />
+    <title>Daily Ticker</title>
+    <link rel="stylesheet" href="/assets/styles.css" />
+  </head>
+  <body>
+    <main class="screen" aria-live="polite">
+      <header class="topbar">
+        <div class="brand"><span class="brand-mark">◆</span><span id="title">THE DAILY TICKER</span></div>
+        <div class="meta"><span id="location">NEW YORK, NY</span><span class="divider"></span><span id="weather">--°</span></div>
+      </header>
+
+      <section class="hero">
+        <p class="eyebrow">LOCAL TIME</p>
+        <time id="clock">--:--</time>
+        <p id="date" class="date">LOADING DATE</p>
+      </section>
+
+      <section class="market" aria-label="Watchlist">
+        <div class="section-label"><span>WATCHLIST</span><span class="line"></span><span class="pulse">● LIVE</span></div>
+        <div id="watchlist" class="cards"></div>
+      </section>
+
+      <footer class="ticker-bar">
+        <span class="breaking">HEADLINES</span>
+        <div class="ticker-window"><div id="headline-track" class="ticker-track"></div></div>
+        <span id="footer-message" class="footer-message">LOCAL DISPLAY</span>
+      </footer>
+    </main>
+    <script src="/assets/app.js" defer></script>
+  </body>
+</html>

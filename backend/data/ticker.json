@@ -1,0 +1,41 @@
+{
+  "title": "THE DAILY TICKER",
+  "location": "NEW YORK, NY",
+  "weather": "72° · CLEAR",
+  "headlines": [
+    "GOOD MORNING — YOUR PERSONAL LIVE DISPLAY IS ONLINE",
+    "THIS IS SAMPLE CONTENT — EDIT backend/data/ticker.json TO CUSTOMIZE",
+    "A WIDE, CALM DISPLAY FOR THE THINGS YOU WANT TO NOTICE"
+  ],
+  "watchlist": [
+    {
+      "symbol": "SPY",
+      "label": "S&P 500 ETF",
+      "value": "524.61",
+      "change": "+0.68%",
+      "direction": "up"
+    },
+    {
+      "symbol": "AAPL",
+      "label": "Apple Inc.",
+      "value": "189.84",
+      "change": "+1.14%",
+      "direction": "up"
+    },
+    {
+      "symbol": "NVDA",
+      "label": "NVIDIA Corp.",
+      "value": "875.28",
+      "change": "-0.32%",
+      "direction": "down"
+    },
+    {
+      "symbol": "BTC",
+      "label": "Bitcoin USD",
+      "value": "67,420",
+      "change": "+2.05%",
+      "direction": "up"
+    }
+  ],
+  "footer_message": "LOCAL DISPLAY · SAMPLE DATA · REFRESHES AUTOMATICALLY"
+}
